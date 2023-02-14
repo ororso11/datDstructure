@@ -4,7 +4,7 @@ public class KisuTrans {
     public static void main(String[] args) {
         char[] res = new char[32];
 
-        int dno = test1(59,2,res);
+        int dno = test1(59,16,res);
         for(int i = dno - 1; i >= 0; i--) {
             System.out.println(res[i]);
         }
